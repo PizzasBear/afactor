@@ -1,0 +1,17 @@
+[package]
+name = "afactor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ahash = "0.8"
+either = "1.13"
+lexical-core = { version = "1.0", features = ["format", "power-of-two"] }
+termcolor = "1.4.1"
+thiserror = "1.0"
+unicode-ident = "1.0"
+wasm-encoder = "0.219"
+wasmparser = "0.219"
+wasmprinter = "0.219.1"
